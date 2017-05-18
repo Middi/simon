@@ -171,17 +171,17 @@ button {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease; }
 
-#red {
-  border-top-left-radius: 100%;
-  background: #bc2012; }
-  #red:hover {
-    background: #e81300; }
-
 #green {
-  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
   background: #198a2b; }
   #green:hover {
     background: #00bd1e; }
+
+#red {
+  border-top-right-radius: 100%;
+  background: #bc2012; }
+  #red:hover {
+    background: #e81300; }
 
 #yellow {
   border-bottom-left-radius: 100%;
@@ -207,9 +207,19 @@ button {
 .buttons {
   height: 36px;
   width: 36px;
-  border: 2px solid #100207;
+  border: 3px solid #100207;
   margin: 10px;
   border-radius: 100%; }
+
+#btn1, #btn3 {
+  background: #cfcf33; }
+  #btn1:hover, #btn3:hover {
+    background: #e8e81a; }
+
+#btn2 {
+  background: #bc2012; }
+  #btn2:hover {
+    background: #ce1100; }
 
 body {
   background: whitesmoke; }

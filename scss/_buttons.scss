@@ -26,19 +26,19 @@ button {
 	transition: all 0.2s ease;
 }
 
-#red {
+#green {
     border-top-left-radius: 100%;
-    background: $red;
-    &:hover {
-        background: saturate(lighten($red, 5), 40);
-    }
-}
-
-#green{
-    border-top-right-radius: 100%;
     background: $green;
     &:hover {
         background: saturate(lighten($green, 5), 40);
+    }
+}
+
+#red {
+    border-top-right-radius: 100%;
+    background: $red;
+    &:hover {
+        background: saturate(lighten($red, 5), 40);
     }
 }
 
@@ -46,7 +46,7 @@ button {
     border-bottom-left-radius: 100%;
     background: $yellow;
     &:hover {
-        background: saturate(lighten($yellow, 5), 50);
+        background: saturate(lighten($yellow, 5), 40);
     }
 }
 
@@ -67,7 +67,21 @@ button {
 .buttons {
     height: 36px;
     width: 36px;
-    border: 2px solid $d-border;
+    border: 3px solid $d-border;
     margin: 10px;
     border-radius: 100%;
+}
+
+#btn1, #btn3 {
+    background: $yellow;
+    &:hover {
+        background: saturate($yellow, 20);
+    }
+}
+
+#btn2 {
+    background: $red;
+    &:hover {
+        background: saturate($red, 35);
+    }
 }
