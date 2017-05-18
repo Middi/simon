@@ -159,6 +159,22 @@ button {
     -webkit-transform: scale(0.96);
             transform: scale(0.96); }
 
+.game-button {
+  width: 200px;
+  height: 200px; }
+
+#red {
+  background: red; }
+
+#green {
+  background: green; }
+
+#yellow {
+  background: yellow; }
+
+#blue {
+  background: blue; }
+
 body {
   background: whitesmoke; }
 
@@ -210,6 +226,12 @@ section {
           align-items: center; }
 
 #center-panel {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 280px;
   height: 280px;
   border-radius: 100%;
