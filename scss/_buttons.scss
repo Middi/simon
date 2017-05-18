@@ -57,3 +57,17 @@ button {
         background: saturate(lighten($blue, 8), 50);
     }
 }
+
+#btn-con {
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    height: 36px;
+    width: 36px;
+    border: 2px solid $d-border;
+    margin: 10px;
+    border-radius: 100%;
+}

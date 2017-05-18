@@ -97,6 +97,16 @@ section {
     }
 }
 
+
+#display {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background: $display;
+    margin: 0 auto;
+    border-radius: 2px;
+    border: 2px solid $d-border;
+}
 // ---- Footer ---- //
 footer {
     right: 0;
