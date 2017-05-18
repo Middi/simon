@@ -23,26 +23,37 @@ button {
     width: 295px;
     height: 295px;
     border: 10px solid $black;
+	transition: all 0.2s ease;
 }
 
 #red {
     border-top-left-radius: 100%;
-    background: red;
-
+    background: $red;
+    &:hover {
+        background: saturate(lighten($red, 5), 40);
+    }
 }
 
 #green{
     border-top-right-radius: 100%;
-    background: green;
+    background: $green;
+    &:hover {
+        background: saturate(lighten($green, 5), 40);
+    }
 }
 
 #yellow {
     border-bottom-left-radius: 100%;
-    background: yellow;
+    background: $yellow;
+    &:hover {
+        background: saturate(lighten($yellow, 5), 50);
+    }
 }
 
 #blue {
-
     border-bottom-right-radius: 100%;
-    background: blue;
+    background: $blue;
+    &:hover {
+        background: saturate(lighten($blue, 8), 50);
+    }
 }

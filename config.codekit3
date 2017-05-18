@@ -19,6 +19,27 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/images\/mb-logo.jpg": {
+		"ft": 16384,
+		"iS": 10131,
+		"oA": 0,
+		"oAP": "\/images\/mb-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/mb-logo.png": {
+		"ft": 32768,
+		"iS": 45757,
+		"oA": 0,
+		"oAP": "\/images\/mb-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/silver.jpg": {
 		"ft": 16384,
 		"iS": 15029,
