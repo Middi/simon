@@ -160,19 +160,24 @@ button {
             transform: scale(0.96); }
 
 .game-button {
-  width: 200px;
-  height: 200px; }
+  width: 295px;
+  height: 295px;
+  border: 10px solid #262626; }
 
 #red {
+  border-top-left-radius: 100%;
   background: red; }
 
 #green {
+  border-top-right-radius: 100%;
   background: green; }
 
 #yellow {
+  border-bottom-left-radius: 100%;
   background: yellow; }
 
 #blue {
+  border-bottom-right-radius: 100%;
   background: blue; }
 
 body {
@@ -258,9 +263,11 @@ footer {
 footer p {
   font-size: 1em; }
 
-.built a, strong {
+.built a,
+strong {
   font-weight: 500; }
-  .built a:hover, strong:hover {
+  .built a:hover,
+  strong:hover {
     text-decoration: underline; }
 
 .fa-heart {
