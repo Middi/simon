@@ -26,97 +26,82 @@
 
 <body>
 
+
+    <!-- HEADER -->
+
     <header>
         <nav>
             <h1 class="logo"><a href="/simon/"><i class="fa fa-free-code-camp" aria-hidden="true"></i>Simon</a></h1>
         </nav>
     </header>
 
+
+    <!-- MAIN -->
+    
     <main>
         <section>
 
             <div id="game-area">
-                <div class="col">
-                <div id="green" class="game-button"></div>
-                <div id="yellow" class="game-button"></div>
-                </div>
+
+
+                <!-- PLAY BUTTONS -->
 
                 <div class="col">
-                <div id="red" class="game-button"></div>
-                <div id="blue" class="game-button"></div>
+                    <div id="green" class="game-button"></div>
+                    <div id="yellow" class="game-button"></div>
                 </div>
+                <div class="col">
+                    <div id="red" class="game-button"></div>
+                    <div id="blue" class="game-button"></div>
+                </div>
+
+
+                <!-- CONTROL PANEL -->
 
                 <div id="center-panel">
-                    <div id="logo-panel"><img src="images/mb-logo.png" /><h2>Simon</h2></div>
+                    <div id="logo-panel"><img src="images/mb-logo.png" />
+                        <h2>Simon</h2>
+                    </div>
+
+
+                    <!-- BUTTON LABELS -->
 
                     <div id="label-con">
-                    <label>Start</label>
-                    <label>On/Off</label>
-                    <label>Strict</label>
+                        <label>Start</label>
+                        <label>On/Off</label>
+                        <label>Strict</label>
                     </div>
+
+
+                    <!-- SETTINGS BUTTONS -->
+
                     <div id="btn-con">
-                    <div id="btn1" class="buttons"></div>
-                    <div id="btn2" class="buttons"></div>
-                    <div id="btn3" class="buttons"></div>
+                        <div id="btn1" class="buttons"></div>
+                        <div id="btn2" class="buttons"></div>
+                        <div id="btn3" class="buttons"></div>
                     </div>
+
+
+                    <!-- DISPLAY -->
+
                     <div id="display">01</div>
+
                 </div>
-
-
             </div>
 
         </section>
-
-        <!-- MODAL WORLD -->
-
-        <!-- Modal Background -->
-
-        <div id="modal-bg" class="hidden"></div>
-
-        <!-- Start Modal -->
-
-        <div id="start" class="hidden">
-            <div class="close">
-                <p>x</p>
-            </div>
-            <h2>choose</h2>
-            <div id="player" class="row">
-                <div id="one" onclick="onePlayer();">
-                    <h4 class="grey">One Player</h4>
-                </div>
-                <div id="two" onclick="twoPlayer();">
-                    <h4>Two Player</h4>
-                </div>
-            </div>
-
-            <div id="symbol" class="hidden">
-                <div id="X">
-                    <h3>X</h3>
-                </div>
-                <div id="O">
-                    <h3>O</h3>
-                </div>
-            </div>
-        </div>
-
-        <div id="winner" class="hidden">
-            <div class="close">
-                <p>x</p>
-            </div>
-            <h2 id="who-wins"></h2>
-            <button role="button" class="restart"><i class="fa fa-repeat" aria-hidden="true"> </i> RESTART</button>
-        </div>
-
     </main>
+
+
+    <!-- FOOTER -->
 
     <footer>
         <p class="built">Built with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://www.richardmiddleton.me"><strong>RICHARD MIDDLETON</strong></a></p>
     </footer>
 
-
-
     <!-- JAVASCIPT -->
     <script type="text/javascript" src="main.js"></script>
+
 </body>
 
 <!-- FONT AWESOME -->
