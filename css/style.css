@@ -374,7 +374,17 @@ strong {
   .game-button {
     width: 200px;
     height: 200px;
-    border: 7px solid #262626; } }
+    border: 7px solid #262626; }
+  #btn-con {
+    padding: 0; }
+  .buttons {
+    height: 32px;
+    width: 32px;
+    border: 2px solid #100207;
+    margin: 5px; }
+  #display {
+    width: 59px;
+    height: 28px; } }
 
 /* -- BREAK 2 -- */
 @media all and (max-width: 440px) {
@@ -396,4 +406,11 @@ strong {
   .game-button {
     width: 150px;
     height: 150px;
-    border: 7px solid #262626; } }
+    border: 7px solid #262626; }
+  .buttons {
+    height: 28px;
+    width: 28px;
+    margin: 2px 5px; }
+  #display {
+    width: 55px;
+    height: 25px; } }
