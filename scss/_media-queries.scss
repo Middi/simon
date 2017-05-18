@@ -34,6 +34,16 @@
         height: 200px;
         border: 7px solid $black;
     }
+
+    #label-con {
+    padding: 0;
+}
+
+    label {
+    margin: 0 8px;
+    font-size: 0.8rem;
+}
+
     #btn-con {
         padding: 0;
     }
@@ -41,11 +51,12 @@
         height: 32px;
         width: 32px;
         border: 2px solid $d-border;
-        margin: 5px;
+        margin: 1px 5px 4px;
     }
     #display {
-        width: 59px;
-        height: 28px;
+        width: 54px;
+        height: 25px;
+        font-size: 1.75rem;
     }
 }
 
@@ -79,14 +90,20 @@
         border: 7px solid $black;
     }
 
+       label {
+    margin: 0 10px;
+    font-size: 0.6rem;
+}
+
     .buttons {
-        height: 28px;
-        width: 28px;
-        margin: 2px 5px;
+        height: 27px;
+        width: 27px;
+        margin: 0 5px 2px;
     }
     #display {
-        width: 55px;
-        height: 25px;
+        width: 40px;
+        height: 24px;
+        font-size: 1.6rem;
     }
 
 }

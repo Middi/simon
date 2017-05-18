@@ -195,8 +195,21 @@ button {
   #blue:hover {
     background: #0300f7; }
 
+#label-con {
+  padding: 4px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+label {
+  margin: 2px 12px 0;
+  font-size: 1rem; }
+
 #btn-con {
-  padding: 10px 0 0 0;
+  padding: 2px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,7 +221,7 @@ button {
   height: 36px;
   width: 36px;
   border: 3px solid #100207;
-  margin: 10px;
+  margin: 0 10px 8px;
   border-radius: 100%; }
 
 #btn1, #btn3 {
@@ -309,10 +322,15 @@ section {
   position: relative;
   width: 80px;
   height: 40px;
-  background: #2a050a;
+  background: #23000a;
   margin: 0 auto;
   border-radius: 2px;
-  border: 2px solid #100207; }
+  border: 2px solid #100207;
+  color: #d11921;
+  font-size: 2.8rem;
+  padding: 0 2px;
+  text-align: right;
+  font-family: 'Bahiana', sans-serif; }
 
 footer {
   right: 0;
@@ -375,16 +393,22 @@ strong {
     width: 200px;
     height: 200px;
     border: 7px solid #262626; }
+  #label-con {
+    padding: 0; }
+  label {
+    margin: 0 8px;
+    font-size: 0.8rem; }
   #btn-con {
     padding: 0; }
   .buttons {
     height: 32px;
     width: 32px;
     border: 2px solid #100207;
-    margin: 5px; }
+    margin: 1px 5px 4px; }
   #display {
-    width: 59px;
-    height: 28px; } }
+    width: 54px;
+    height: 25px;
+    font-size: 1.75rem; } }
 
 /* -- BREAK 2 -- */
 @media all and (max-width: 440px) {
@@ -407,10 +431,14 @@ strong {
     width: 150px;
     height: 150px;
     border: 7px solid #262626; }
+  label {
+    margin: 0 10px;
+    font-size: 0.6rem; }
   .buttons {
-    height: 28px;
-    width: 28px;
-    margin: 2px 5px; }
+    height: 27px;
+    width: 27px;
+    margin: 0 5px 2px; }
   #display {
-    width: 55px;
-    height: 25px; } }
+    width: 40px;
+    height: 24px;
+    font-size: 1.6rem; } }
