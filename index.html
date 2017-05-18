@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Simon Game</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="images/facicon.png" />
+
+    <!-- Meta Data -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Simon game for freeCodeCamp">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo"><a href="/simon/"><i class="fa fa-free-code-camp" aria-hidden="true"></i>Simon</a></h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <div id="game-area">
+
+<div id="center-panel">
+
+</div>
+
+            </div>
+
+        </section>
+
+        <!-- MODAL WORLD -->
+
+        <!-- Modal Background -->
+
+        <div id="modal-bg" class="hidden"></div>
+
+        <!-- Start Modal -->
+
+        <div id="start" class="hidden">
+            <div class="close">
+                <p>x</p>
+            </div>
+            <h2>choose</h2>
+            <div id="player" class="row">
+                <div id="one" onclick="onePlayer();">
+                    <h4 class="grey">One Player</h4>
+                </div>
+                <div id="two" onclick="twoPlayer();">
+                    <h4>Two Player</h4>
+                </div>
+            </div>
+
+            <div id="symbol" class="hidden">
+                <div id="X">
+                    <h3>X</h3>
+                </div>
+                <div id="O">
+                    <h3>O</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="winner" class="hidden">
+            <div class="close">
+                <p>x</p>
+            </div>
+            <h2 id="who-wins"></h2>
+            <button role="button" class="restart"><i class="fa fa-repeat" aria-hidden="true"> </i> RESTART</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="built">Built with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://www.richardmiddleton.me"><strong>RICHARD MIDDLETON</strong></a></p>
+    </footer>
+
+
+
+    <!-- JAVASCIPT -->
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</html>
