@@ -45,7 +45,12 @@ section {
 }
 
 #game-area {
-    margin: 0 auto;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     width: 600px;
     height: 600px;
     border-radius: 100%;
@@ -65,12 +70,22 @@ section {
     width: 280px;
     height: 280px;
     border-radius: 100%;
+    border: 12px solid $black;
     background-image: url('../images/silver.jpg');
     background-position: no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#logo-panel {
+    background: $black;
+    height: 128px;
+    width: 256px;
+    border: 2px solid $silver;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
 }
 
 // ---- Footer ---- //

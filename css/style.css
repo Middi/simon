@@ -127,9 +127,9 @@ a {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease; }
   #X:hover, #O:hover, #one:hover, #two:hover {
-    background: #e8e8e8; }
+    background: #878787; }
   #X:active, #O:active, #one:active, #two:active {
-    background: #dbdbdb; }
+    background: #7a7a7a; }
 
 .close {
   position: absolute;
@@ -215,7 +215,12 @@ section {
   vertical-align: middle; }
 
 #game-area {
-  margin: 0 auto;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 600px;
   height: 600px;
   border-radius: 100%;
@@ -240,9 +245,18 @@ section {
   width: 280px;
   height: 280px;
   border-radius: 100%;
+  border: 12px solid #262626;
   background-image: url("../images/silver.jpg");
   background-position: no-repeat bottom center fixed;
   background-size: cover; }
+
+#logo-panel {
+  background: #262626;
+  height: 128px;
+  width: 256px;
+  border: 2px solid #878787;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px; }
 
 footer {
   right: 0;

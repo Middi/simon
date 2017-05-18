@@ -36,8 +36,8 @@
     cursor: pointer;
     cursor: hand;
 	transition: all 0.4s ease;
-    &:hover {background: $light-grey}
-    &:active {background: darken($light-grey, 5)}
+    &:hover {background: $silver}
+    &:active {background: darken($silver, 5)}
 }
 
 .close {
