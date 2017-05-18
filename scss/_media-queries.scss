@@ -5,7 +5,77 @@
 
 /* -- BREAK 1 -- */
 
-@media all and (max-width: 580px) {
+@media all and (max-width: 700px) {
 
+h2 {
+    font-size: 3.3em;
+}
+
+#game-area {
+    width: 400px;
+    height: 400px;
+}
+
+#center-panel {
+    width: 180px;
+    height: 180px;
+    border: 10px solid $black;
+}
+
+#logo-panel {
+    height: 80px;
+    width: 160px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    img {
+        padding: 8px 0 0 0;
+        width: 26px;
+    }
+}
+
+.game-button {
+    width: 200px;
+    height: 200px;
+    border: 7px solid $black;
+}
+
+}
+
+
+
+
+/* -- BREAK 2 -- */
+
+@media all and (max-width: 440px) {
+
+h2 {
+    font-size: 2.7em;
+}
+
+#game-area {
+    width: 300px;
+    height: 300px;
+}
+
+#center-panel {
+    width: 150px;
+    height: 150px;
+    border: 10px solid $black;
+}
+
+#logo-panel {
+    height: 65px;
+    width: 130px;
+    img {
+        padding: 8px 0 0 0;
+        width: 20px;
+    }
+}
+
+.game-button {
+    width: 150px;
+    height: 150px;
+    border: 7px solid $black;
+}
 
 }
