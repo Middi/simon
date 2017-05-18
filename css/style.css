@@ -173,27 +173,27 @@ button {
 
 #green {
   border-top-left-radius: 100%;
-  background: #198a2b; }
+  background: #157823; }
   #green:hover {
-    background: #00bd1e; }
+    background: #00b61a; }
 
 #red {
   border-top-right-radius: 100%;
-  background: #bc2012; }
+  background: #aa1a0e; }
   #red:hover {
-    background: #e81300; }
+    background: #dc1100; }
 
 #yellow {
   border-bottom-left-radius: 100%;
-  background: #cfcf33; }
+  background: #bebe2c; }
   #yellow:hover {
-    background: #ffff1d; }
+    background: #ffff14; }
 
 #blue {
   border-bottom-right-radius: 100%;
-  background: #0e0cc2; }
+  background: #0909b0; }
   #blue:hover {
-    background: #0300f7; }
+    background: #0000f6; }
 
 #label-con {
   padding: 4px 0 0 0;
@@ -225,14 +225,14 @@ label {
   border-radius: 100%; }
 
 #btn1, #btn3 {
-  background: #cfcf33; }
+  background: #bebe2c; }
   #btn1:hover, #btn3:hover {
-    background: #e8e81a; }
+    background: #d5d515; }
 
 #btn2 {
-  background: #bc2012; }
+  background: #aa1a0e; }
   #btn2:hover {
-    background: #ce1100; }
+    background: #d21000; }
 
 body {
   background: whitesmoke; }

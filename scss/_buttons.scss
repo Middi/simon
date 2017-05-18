@@ -30,7 +30,7 @@ button {
     border-top-left-radius: 100%;
     background: $green;
     &:hover {
-        background: saturate(lighten($green, 5), 40);
+        background: saturate(lighten($green, 8), 50);
     }
 }
 
@@ -38,7 +38,7 @@ button {
     border-top-right-radius: 100%;
     background: $red;
     &:hover {
-        background: saturate(lighten($red, 5), 40);
+        background: saturate(lighten($red, 7), 50);
     }
 }
 
@@ -46,7 +46,7 @@ button {
     border-bottom-left-radius: 100%;
     background: $yellow;
     &:hover {
-        background: saturate(lighten($yellow, 5), 40);
+        background: saturate(lighten($yellow, 8), 50);
     }
 }
 
@@ -54,7 +54,7 @@ button {
     border-bottom-right-radius: 100%;
     background: $blue;
     &:hover {
-        background: saturate(lighten($blue, 8), 50);
+        background: saturate(lighten($blue, 12), 50);
     }
 }
 
@@ -95,6 +95,6 @@ label {
 #btn2 {
     background: $red;
     &:hover {
-        background: saturate($red, 35);
+        background: lighten(saturate($red, 40), 5);
     }
 }
