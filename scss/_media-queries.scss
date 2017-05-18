@@ -6,6 +6,9 @@
 /* -- BREAK 1 -- */
 
 @media all and (max-width: 700px) {
+
+
+    h1 {font-size: 1.8em}
     h2 {
         font-size: 3.3em;
         padding-top: 0;
@@ -58,6 +61,12 @@
         height: 25px;
         font-size: 1.75rem;
     }
+
+    footer {
+	padding:     8px;
+    font-size: 0.8em;
+    }
+
 }
 
 
