@@ -310,6 +310,7 @@ section {
   height: 128px;
   width: 256px;
   border: 2px solid #878787;
+  border-bottom: none;
   border-top-left-radius: 300px;
   border-top-right-radius: 300px;
   text-align: center; }
