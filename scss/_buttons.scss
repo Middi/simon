@@ -1,32 +1,30 @@
-
 button {
-    border:     none;
+    border: none;
     background: none;
-	color:    $black;
+    color: $black;
     margin: 70px 0 20px 0;
     font-size: 1.4rem;
     padding: 12px 14px;
-	border-radius: 1px;
+    border-radius: 1px;
     border: 1px solid $black;
-	transition: all 0.5s ease;
-
-    &:hover {background: darken($white, 6)}
-
+    transition: all 0.5s ease;
+    &:hover {
+        background: darken($white, 6)
+    }
     &:active {
         background: darken($white, 6);
-        transform:        scale(0.96);
-        }
+        transform: scale(0.96);
+    }
 }
-
 
 .game-button {
     width: 295px;
     height: 295px;
     border: 10px solid $black;
-	transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
-#green {
+.green {
     border-top-left-radius: 100%;
     background: $green;
     &:hover {
@@ -34,7 +32,11 @@ button {
     }
 }
 
-#red {
+.green-active {
+    background: saturate(lighten($green, 8), 50);
+}
+
+.red {
     border-top-right-radius: 100%;
     background: $red;
     &:hover {
@@ -42,7 +44,11 @@ button {
     }
 }
 
-#yellow {
+.red-active {
+    background: saturate(lighten($red, 7), 50);
+}
+
+.yellow {
     border-bottom-left-radius: 100%;
     background: $yellow;
     &:hover {
@@ -50,7 +56,11 @@ button {
     }
 }
 
-#blue {
+.yellow-active {
+    background: saturate(lighten($yellow, 8), 50);
+}
+
+.blue {
     border-bottom-right-radius: 100%;
     background: $blue;
     &:hover {
@@ -58,6 +68,9 @@ button {
     }
 }
 
+.blue-active {
+    background: saturate(lighten($blue, 12), 50);
+}
 
 #label-con {
     padding: 4px 0 0 0;
@@ -69,7 +82,6 @@ label {
     margin: 2px 12px 0;
     font-size: 1rem;
 }
-
 
 #btn-con {
     padding: 2px 0 0 0;
@@ -85,7 +97,8 @@ label {
     border-radius: 100%;
 }
 
-#btn1, #btn3 {
+#btn1,
+#btn3 {
     background: $yellow;
     &:hover {
         background: saturate($yellow, 20);

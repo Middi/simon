@@ -171,29 +171,41 @@ button {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease; }
 
-#green {
+.green {
   border-top-left-radius: 100%;
   background: #157823; }
-  #green:hover {
+  .green:hover {
     background: #00b61a; }
 
-#red {
+.green-active {
+  background: #00b61a; }
+
+.red {
   border-top-right-radius: 100%;
   background: #aa1a0e; }
-  #red:hover {
+  .red:hover {
     background: #dc1100; }
 
-#yellow {
+.red-active {
+  background: #dc1100; }
+
+.yellow {
   border-bottom-left-radius: 100%;
   background: #bebe2c; }
-  #yellow:hover {
+  .yellow:hover {
     background: #ffff14; }
 
-#blue {
+.yellow-active {
+  background: #ffff14; }
+
+.blue {
   border-bottom-right-radius: 100%;
   background: #0909b0; }
-  #blue:hover {
+  .blue:hover {
     background: #0000f6; }
+
+.blue-active {
+  background: #0000f6; }
 
 #label-con {
   padding: 4px 0 0 0;
@@ -224,9 +236,11 @@ label {
   margin: 0 10px 8px;
   border-radius: 100%; }
 
-#btn1, #btn3 {
+#btn1,
+#btn3 {
   background: #bebe2c; }
-  #btn1:hover, #btn3:hover {
+  #btn1:hover,
+  #btn3:hover {
     background: #d5d515; }
 
 #btn2 {

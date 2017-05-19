@@ -9,6 +9,54 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/assets\/simonSound1.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound1.mp3",
+		"oF": 0
+		},
+	"\/assets\/simonSound1.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound1.ogg",
+		"oF": 0
+		},
+	"\/assets\/simonSound2.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound2.mp3",
+		"oF": 0
+		},
+	"\/assets\/simonSound2.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound2.ogg",
+		"oF": 0
+		},
+	"\/assets\/simonSound3.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound3.mp3",
+		"oF": 0
+		},
+	"\/assets\/simonSound3.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound3.ogg",
+		"oF": 0
+		},
+	"\/assets\/simonSound4.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound4.mp3",
+		"oF": 0
+		},
+	"\/assets\/simonSound4.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/simonSound4.ogg",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
